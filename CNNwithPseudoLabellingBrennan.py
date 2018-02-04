@@ -66,7 +66,7 @@ idx_tr = np.where(df_t4pf.inc_angle>0)
 
 Xpt1 = Xpt1[idx_tr[0],...]
 Ypt1 = Ypt1[idx_tr[0]]
-
+ 
 Xtrain = np.concatenate((Xtrain2, Xpt1))
 Ytrain = np.concatenate((Ytrain2, Ypt1))
 
