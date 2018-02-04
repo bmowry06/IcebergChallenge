@@ -78,7 +78,7 @@ def get_more_images_imG(imgs):
             iaa.ContrastNormalization((0.75, 1.5)),
             iaa.AdditiveGaussianNoise(loc=0, scale=(0.0, 0.05*255), per_channel=0.5)
             ], random_order=True) #apply the augmenters in random order
-            
+             
     seq2 = iaa.Sequential([
             iaa.CropAndPad(
                     percent=(-0.05, 0.05),
