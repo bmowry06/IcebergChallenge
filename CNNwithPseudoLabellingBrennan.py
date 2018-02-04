@@ -12,7 +12,7 @@ from keras.callbacks import EarlyStopping, ModelCheckpoint, ReduceLROnPlateau
 from keras.layers.normalization import BatchNormalization
 from keras.optimizers import Adam
 from sklearn.model_selection import KFold 
-
+ 
 def get_scaled_imgs(df):
     imgs = []
     
